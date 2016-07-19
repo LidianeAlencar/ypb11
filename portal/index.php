@@ -9,7 +9,7 @@
 
 
 <div class="parallax-container">
-  <div class="parallax"><img src="http://ybp111.hospedagemdesites.ws/app_interno/gallery/Palestra_Publica_mar162.jpg"></div>
+  <div class="parallax"><img src="<?= $IMG ?>/banner.png"></div>
 </div>
 <div class="section white">
   <div class="row container">
