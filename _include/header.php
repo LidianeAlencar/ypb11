@@ -11,6 +11,21 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="<?= $CSS ?>/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?= $CSS ?>/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+ <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+ <script>
+   var OneSignal = OneSignal || [];
+   OneSignal.push(["init", {
+     appId: "3f68a2ba-3fd5-4534-ba91-3e9a614f158e",
+     autoRegister: false, /* Set to true to automatically prompt visitors */
+     subdomainName: 'https://ybp11.onesignal.com',
+     notifyButton: {
+         enable: true /* Set to false to hide */
+     }
+   }]);
+ </script>
+
 </head>
 <body >
   <nav class="light-blue l?ighten-1" role="navigation">
